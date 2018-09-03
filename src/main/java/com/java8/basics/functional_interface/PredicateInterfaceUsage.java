@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static java.lang.System.lineSeparator;
 import static java.lang.System.out;
 
 public class PredicateInterfaceUsage {

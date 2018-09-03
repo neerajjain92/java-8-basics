@@ -4,7 +4,7 @@ public class MyFunctionalInterfaceImpl {
 
     public static void main(String[] args) {
         MyFunctionalInterface functionalInterface = (String guestName) -> {
-            System.out.println("Welcome " + guestName);
+            System.out.println("Welcome from Functional Interface " + guestName);
         };
 
         functionalInterface.greet("Neeraj Jain");
