@@ -31,6 +31,10 @@ public class FunctionInterfaceInternalExample {
         // Default Compose Method in Function Interface
         log("Usage of default method compose() of Function");
         composeMethodExample();
+
+        // Default andThen Method in Function Interface
+        log("Usage of default method andThen() of Function");
+        andThenExample();
     }
 
     /**
@@ -52,6 +56,22 @@ public class FunctionInterfaceInternalExample {
         };
 
         System.out.println(convertEmpListToNameList(currentFunction.compose(beforeFunction)));
+    }
+
+    /**
+     * default <V> Function<T,V> andThen(Function<? super R,? extends V> after)
+     * Returns a composed function that first applies this function to its input,
+     * and then applies the after function to the result. If evaluation of either function throws an exception,
+     * it is relayed to the caller of the composed function.
+     */
+    private static void andThenExample() {
+        Function<Employee, String> currentFunction = (Employee employee) -> {
+            return employee.getFullName();
+        };
+        // This will return the initials
+        Function<String, String> afterFunction = (String s) -> s.substring(0, 1);
+
+        System.out.println(convertEmpListToNameList(currentFunction.andThen(afterFunction)));
     }
 
     /**
