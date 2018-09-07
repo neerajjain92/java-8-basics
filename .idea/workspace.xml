@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="43fce82b-c3c9-4502-9b89-ea3b61f3be9a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-8-basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-8-basics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/java8/basics/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java8/basics/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,55 +54,57 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1090607794">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="17" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="14" />
+          <entry key="java" value="4817" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4817" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="17" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Java8Collectors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-343">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-              <folding>
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1117#1118#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
-                <element signature="e#1185#1186#0" expanded="true" />
-                <element signature="e#1235#1236#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1312#1313#0" expanded="true" />
-                <element signature="e#1343#1344#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1484#1485#0" expanded="true" />
-                <element signature="e#1519#1520#0" expanded="true" />
-                <element signature="e#1549#1550#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="1365">
+              <caret line="97" selection-start-line="96" selection-start-column="5" selection-end-line="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,10 +113,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,10 +125,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="60" selection-start-line="60" selection-end-line="62" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="195">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -129,44 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterfaceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="3360">
+              <caret line="270" selection-start-line="270" selection-end-line="270" />
             </state>
           </provider>
         </entry>
@@ -183,9 +184,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.map</find>
       <find>map</find>
       <find>log</find>
+      <find>package com\.java8\.basics\.stream\;\n\nimport com\.google\.common\.collect\.ImmutableList\;\nimport com\.sun\.javafx\.collections\.ImmutableObservableList\;\nimport jdk\.nashorn\.internal\.ir\.annotations\.Immutable\;\n\nimport java\.util\.\*\;\nimport java\.util\.function\.Function\;\n\nimport static java\.util\.stream\.Collectors\.\*\;\nimport static com\.java8\.basics\.stream\.Util\.\*\;\n\n\/\*\*\n \* Collector is the class and interface as well\n \*\/\npublic class Java8Collectors \{\n\n    private static List\&lt;String\&gt; givenList\;\n\n    static \{\n        givenList \= Arrays\.asList\(\&quot;a\&quot;\, \&quot;bb\&quot;\, \&quot;ccc\&quot;\, \&quot;dd\&quot;\, \&quot;ccc\&quot;\)\;\n    \}\n\n    public static void main\(String\[\] args\) \{\n\n        log\(\&quot;Collectors\.toList\&quot;\)\;\n        collectorsToList\(\)\;\n\n        log\(\&quot;Collectors\.toSet\&quot;\)\;\n        collectorsToSet\(\)\;\n\n        \/\/ toSet\(\) and toList\(\) doesn\'t guarantee a particular implementation\n        \/\/ of List or Set so if we need a specific implementation\n        \/\/ we can use Collectors\.toCollection\(\)\;\n\n        log\(\&quot;Collectors\.toCollection\(SpecificImplementation\:\:new\)\&quot;\)\;\n        collectorsToCollection\(\)\;\n\n        \/\/ 3\.4\. Collectors\.toMap\(\)\n        \/\/ ToMap collector can be used to collect Stream elements into a Map\n        \/\/ instance\. To do this\, you need to provide two functions\:\n        \/\/ keyMapper\n        \/\/ valueMapper\n        \/\/ Note if the key is duplicate toMap throws DuplicateKey Exception\n        \/\/ To avoid it we can use toMap\(Function keyMapper\,Function valueMapper\,BinaryOperator mergeFunction\)\n\n        \/\/ Important\: mergeFunction operates on 2 values associated with the same key\n        log\(\&quot;Collectors\.toMap\&quot;\)\;\n        collectorsToMap\(\)\;\n\n        log\(\&quot;Collectors\.collectingAndThen\(\)\&quot;\)\;\n        collectorsCollectingAndThen\(\)\;\n\n\n    \}\n\n    private static void collectorsCollectingAndThen\(\) \{\n        List\&lt;String\&gt; result \= givenList\.stream\(\)\.collect\(collectingAndThen\(toList\(\)\, ImmutableList\:\:copyOf\)\)\;\n    \}\n\n    private static void collectorsToMap\(\) \{\n        Map\&lt;String\, Integer\&gt; resultMap \= givenList\.stream\(\)\n                \.collect\(toMap\(Function\.identity\(\)\, String\:\:length\, \(value1\, value2\) \-\&gt; \{\n                    System\.out\.println\(\&quot;Duplicate key found\&quot;\)\;\n                    return value1\;\n                \}\)\)\;\n        System\.out\.println\(resultMap\)\;\n\n        \/\/ Short hand for mergeFunction\n\n        \/\/ Map\&lt;String\, Integer\&gt; result \= givenList\.stream\(\)\n        \/\/      \.collect\(toMap\(Function\.identity\(\)\, String\:\:length\, \(i1\, i2\) \-\&gt; i1\)\)\;\n    \}\n\n    private static void collectorsToCollection\(\) \{\n        List\&lt;String\&gt; result \= givenList\.stream\(\)\.collect\(toCollection\(LinkedList\:\:new\)\)\;\n        System\.out\.println\(result\)\;\n    \}\n\n    private static void collectorsToSet\(\) \{\n        Set\&lt;String\&gt; result \= givenList\.stream\(\)\.collect\(toSet\(\)\)\;\n        System\.out\.println\(result\)\;\n    \}\n\n    private static void collectorsToList\(\) \{\n        List\&lt;String\&gt; result \= givenList\.stream\(\)\.collect\(toList\(\)\)\;\n        System\.out\.println\(result\)\;\n    \}\n\}\n</find>
+      <find>findBy</find>
+      <find>.map</find>
+      <find>mergeFunc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,8 +202,8 @@
         <entry key="$PROJECT_DIR$/../BehaviourDrivenDevelopment-poc" value="2969102956000" />
         <entry key="$PROJECT_DIR$/../SpringSecurityWithAngular" value="1487053046000" />
         <entry key="$PROJECT_DIR$/../strman-java" value="2973937467000" />
-        <entry key="$USER_HOME$/Smart-Doers/qrcode-generator" value="2969167053000" />
         <entry key="$PROJECT_DIR$/../../../jhipster_tutorial" value="2973797416000" />
+        <entry key="$USER_HOME$/Smart-Doers/qrcode-generator" value="2969167053000" />
       </map>
     </option>
   </component>
@@ -209,15 +213,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/functional_interface/PredicateInterfaceUsage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterfaceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/java8/basics/Employee.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Java8Collectors.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" />
       </list>
     </option>
   </component>
@@ -241,9 +247,26 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java8Basics" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java8Basics" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -331,6 +354,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -408,20 +432,20 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="App&#9;FILE&#9;file:///Users/apple/IdeaProjects/java-8-basics/src/main/java/com/java8/basics/App.java&#10;MyFun&#9;FILE&#9;file:///Users/apple/IdeaProjects/java-8-basics/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterface.java&#10;MyFund&#9;null&#9;null&#10;pom.xml&#9;FILE&#9;file:///Users/apple/IdeaProjects/java-8-basics/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="Guide&#9;FILE&#9;file:///Users/neeraj/Projects/github/neerajjain92/java-8-basics/src/main/java/com/java8/basics/stream/GuideToStream.java&#10;pom.xml&#9;FILE&#9;file:///Users/neeraj/Projects/github/neerajjain92/java-8-basics/pom.xml&#10;App&#9;FILE&#9;file:///Users/apple/IdeaProjects/java-8-basics/src/main/java/com/java8/basics/App.java&#10;MyFun&#9;FILE&#9;file:///Users/apple/IdeaProjects/java-8-basics/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterface.java&#10;MyFund&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535970721417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536295855093" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32068965" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -435,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GuideToStream">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -470,13 +494,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFunctionalInterfaceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.basics.functional_interface.MyFunctionalInterfaceImpl" />
+    <configuration name="Java8Collectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.basics.stream.Java8Collectors" />
       <module name="java-8-basics" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8.basics.functional_interface.*" />
+          <option name="PATTERN" value="com.java8.basics.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -546,19 +570,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyFunctionalInterfaceImpl" />
       <item itemvalue="Application.GuideToStream" />
       <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.AppTest.whenMapIdToEmployees_thenGetEmployeeStream" />
       <item itemvalue="Application.FunctionInterfaceInternalExample" />
+      <item itemvalue="Application.Java8Collectors" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FunctionInterfaceInternalExample" />
         <item itemvalue="Application.GuideToStream" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.whenMapIdToEmployees_thenGetEmployeeStream" />
-        <item itemvalue="Application.MyFunctionalInterfaceImpl" />
+        <item itemvalue="Application.Java8Collectors" />
+        <item itemvalue="Application.FunctionInterfaceInternalExample" />
       </list>
     </recent_temporary>
   </component>
@@ -579,49 +603,54 @@
       <updated>1530467961779</updated>
       <workItem from="1530467967471" duration="164000" />
       <workItem from="1530468352021" duration="2455000" />
+      <workItem from="1535999413055" duration="1212000" />
+      <workItem from="1536035373296" duration="3155000" />
+      <workItem from="1536120207706" duration="667000" />
+      <workItem from="1536126562915" duration="3690000" />
+      <workItem from="1536292538734" duration="1588000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2018.09.02 at 22h 28m 41s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2018.09.02 at 22h 44m 46s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2018.09.02 at 22h 45m 00s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2018.09.02 at 22h 45m 10s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2018.09.02 at 22h 45m 38s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.02 at 22h 52m 38s.xml">
+    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.05 at 11h 44m 34s.xml">
       <configuration name="AppTest.whenMapIdToEmployees_thenGetEmployeeStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.02 at 22h 53m 09s.xml">
+    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.05 at 11h 44m 55s.xml">
       <configuration name="AppTest.whenMapIdToEmployees_thenGetEmployeeStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.02 at 22h 53m 27s.xml">
+    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.05 at 11h 45m 13s.xml">
       <configuration name="AppTest.whenMapIdToEmployees_thenGetEmployeeStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.09.02 at 22h 54m 48s.xml">
+    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.05 at 11h 45m 33s.xml">
+      <configuration name="AppTest.whenMapIdToEmployees_thenGetEmployeeStream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.09.05 at 12h 02m 09s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.09.02 at 22h 54m 58s.xml">
+    <history-entry file="AppTest - 2018.09.05 at 12h 04m 34s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.09.05 at 12h 05m 31s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.09.07 at 09h 29m 27s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.09.07 at 09h 29m 59s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.09.07 at 09h 31m 12s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2619000" />
+    <option name="totallyTimeSpent" value="12931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25931233" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22100122" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -630,16 +659,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37040818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.327551" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32771084" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.327551" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -648,7 +678,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32967034" />
       <window_info anchor="right" id="Maven-2 Build" order="9" />
     </layout>
   </component>
@@ -658,170 +688,181 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/System.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="99" column="8" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/functional_interface/PredicateInterfaceUsage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="64" column="75" lean-forward="true" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Collectors.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/IntSummaryStatistics.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Supplier.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/FunctionalInterface.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8610">
+          <caret line="621" column="15" selection-start-line="621" selection-start-column="15" selection-end-line="621" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3280#3281#0" expanded="true" />
-            <element signature="e#3378#3379#0" expanded="true" />
+            <element signature="e#22786#22787#0" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Collectors.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="1839" column="42" selection-start-line="1839" selection-start-column="42" selection-end-line="1839" selection-end-column="42" />
+        <state relative-caret-position="11610">
+          <caret line="850" column="31" selection-start-line="850" selection-start-column="31" selection-end-line="850" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/IntSummaryStatistics.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="196" column="18" selection-start-line="196" selection-start-column="18" selection-end-line="196" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/FunctionalInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterfaceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="480">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterfaceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+        <state relative-caret-position="345">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="40" column="28" lean-forward="true" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-343">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        <state relative-caret-position="317">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="315">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding>
             <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Java8Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="1365">
+          <caret line="97" selection-start-line="96" selection-start-column="5" selection-end-line="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3360">
+          <caret line="270" selection-start-line="270" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="60" selection-start-line="60" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

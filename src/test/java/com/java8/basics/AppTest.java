@@ -1,17 +1,17 @@
 package com.java8.basics;
 
-import static org.junit.Assert.assertTrue;
-import static org.assertj.core.api.Assertions.*;
-
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
+import com.java8.basics.Employee;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.setRemoveAssertJRelatedElementsFromStackTrace;
 
 /**
  * Unit test for simple App.
@@ -39,6 +39,23 @@ public class AppTest {
                 .collect(Collectors.toList());
 
         assertThat(filteredEmployees.size()).isEqualTo(empIds.size() - 1);
+
+        Employee employee = empIds.stream().map(empId -> findById(empId))
+                .filter(employee1 -> employee1 != null)
+                .filter(employee1 -> employee1.age > 21)
+                .findFirst().orElse(null);
+        assertThat(employee).isNotNull();
+
+        Employee[] employeeArr = empIds.stream().map(empId -> findById(empId)).filter(empObj -> empObj != null).toArray(Employee[]::new);
+        assertThat(employeeArr.length).isEqualTo(3);
+    }
+
+    @Test
+    public void whenStreamCount_thenGetElementCount() {
+        // Example of Stream Pipeline, where filter is an intermediate operation
+        // and count is the terminal operation after which stream can no longer be consumed
+        Long employeesGreaterThan26Years = employeeList.stream().filter(employee -> employee.age > 26).count();
+        assertThat(employeesGreaterThan26Years).isEqualTo(3);
     }
 
     public Employee findById(int empId) {

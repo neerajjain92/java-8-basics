@@ -1,12 +1,16 @@
 package com.java8.basics.stream;
 
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static com.java8.basics.stream.Util.*;
+import static java.util.stream.Collectors.toList;
 
 public class GuideToStream {
 
@@ -26,6 +30,60 @@ public class GuideToStream {
         log("Stream.collect() using Collector");
         collectType2();
 
+        // All Collectors are being covered in Java8Collectors class
+
+        // flatMap first apply a function to your elements, and then flatten it.
+        // Input : [ [1,2,3],[4,5,6],[7,8,9] ]
+        // Output: [ 1,2,3,4,5,6,7,8,9 ].
+        log("Stream flatMap() ");
+        flatMapSample();
+
+        //Java 8 Streams API – creating infinite streams with iterate and generate methods
+        log("Java 8 Streams API – creating infinite streams with iterate and generate methods");
+        infinteStreamExample();
+
+        // Lazy Evaluation in Stream
+        log("Lazy Evaluation in Stream");
+        lazyEvaluationExample();
+    }
+
+    /**
+     * Employee 1 Age 27
+     * Employee 2 Age 26
+     * Employee 3 Age 29
+     * In this Example whenever after intermediate operation is applied on Employee 1 and all predicates are met
+     * then findOne will simply return the first element without even processing the Employee 2 and Employee 3
+     * <p>
+     * <p>
+     * Note: Processing streams lazily allows avoiding examining all the data when that’s not necessary.
+     * This behavior becomes even more important when the input stream is infinite and not just very large.
+     */
+    private static void lazyEvaluationExample() {
+        Integer[] empIds = {1, 2, 3, 4};
+        Stream<Employee> employeeStream = getEmployeeStream();
+
+        System.out.println(Stream.of(empIds).map(empId -> findById(employeeStream, empId)).
+                filter(employee -> employee.age > 26).findFirst().orElse(null));
+    }
+
+    private static void infinteStreamExample() {
+        System.out.println("With Iterate method");
+        List<Integer> infiniteStreamValues = Stream.iterate(2, i -> i * 2).skip(5).limit(10).collect(toList());
+        System.out.println(infiniteStreamValues);
+
+        // Stream.generate doesn't have any initial seed unlike iterate
+        System.out.println("With Generate Method");
+        System.out.println(Stream.generate(Math::random).limit(5).collect(toList()));
+    }
+
+    private static void flatMapSample() {
+        List<List<String>> namesNested = Arrays.asList(
+                Arrays.asList("Jeff", "Bezos"),
+                Arrays.asList("Bill", "Gates"),
+                Arrays.asList("Mark", "Zuckerberg"));
+
+        List<String> members = namesNested.stream().flatMap(Collection::stream).collect(toList());
+        System.out.println(members);
     }
 
     /**
@@ -67,17 +125,8 @@ public class GuideToStream {
         System.out.println(stats.getSum());
     }
 
-    static void printStream(Stream stream) {
-        stream.forEach(System.out::println);
-    }
-
-    static Stream<Employee> getEmployeeStream() {
-        Stream.Builder<Employee> employeeStreamBuilder = Stream.builder();
-
-        employeeStreamBuilder.accept(new Employee(1, "Jitu", "Saini", 27));
-        employeeStreamBuilder.accept(new Employee(2, "Neeraj", "Jain", 26));
-        employeeStreamBuilder.accept(new Employee(3, "Sagar", "Batra", 29));
-        return employeeStreamBuilder.build();
+    public static Employee findById(Stream<Employee> stream, int empId) {
+        return stream.filter(employee -> employee.empId == empId).findFirst().orElse(null);
     }
 }
 

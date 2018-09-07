@@ -6,6 +6,7 @@ class Employee {
     String lastName;
     int age;
     String fullName;
+    int Salary;
 
     public Employee(int empId, String firstName, String lastName, int age) {
         this.empId = empId;
@@ -18,6 +19,15 @@ class Employee {
         this.empId = empId;
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+
+    public Employee(int empId, String firstName, String lastName, int age, String fullName, int salary) {
+        this.empId = empId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.fullName = fullName;
+        Salary = salary;
     }
 
     public String getFullName() {
