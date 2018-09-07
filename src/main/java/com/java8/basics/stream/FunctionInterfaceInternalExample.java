@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
-import static com.java8.basics.stream.Util.*;
+import static com.java8.basics.stream.Util.log;
 
 /**
  * java.util.function.Function<T,R>

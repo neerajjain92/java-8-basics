@@ -1,11 +1,7 @@
 package com.java8.basics.stream;
 
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.IntSummaryStatistics;
-import java.util.List;
+import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -45,6 +41,52 @@ public class GuideToStream {
         // Lazy Evaluation in Stream
         log("Lazy Evaluation in Stream");
         lazyEvaluationExample();
+
+        // Comparison Based Stream Operations
+        log("[Comparison Based Stream Operations]");
+        comparisionBasedStreamOperations();
+
+        // Stream Specializations
+        log("Stream Specializations IntStream, LongStream, and DoubleStream etc.");
+        streamSpecializationExample();
+    }
+
+    /**
+     * // Boxed is needed to convert IntStream to the Stream<Integer> so that we can now collect it.
+     * https://stackoverflow.com/questions/23674624/how-do-i-convert-a-java-8-intstream-to-a-list
+     */
+    private static void streamSpecializationExample() {
+        System.out.println("List of Id's with mapToInt" + getEmployeeStream().mapToInt(Employee::getEmpId).boxed().collect(toList()));
+
+        // If we don't use boxed
+        System.out.println("List of Age of Employees " + getEmployeeStream().mapToInt(Employee::getAge).mapToObj(age -> age).collect(toList()));
+    }
+
+    private static void comparisionBasedStreamOperations() {
+        log("Min Max Example");
+        System.out.println("Min " + getEmployeeStream().min(Comparator.comparing(Employee::getAge)));
+        System.out.println("Max " + getEmployeeStream().max(Comparator.comparing(Employee::getAge)));
+
+        log("Sorted Example with Comparator's comparing ");
+        getEmployeeStream().sorted(Comparator.comparing(Employee::getFullName)).forEach(System.out::println);
+
+        log("Distinct Example");
+        List<Integer> empIds = Arrays.asList(1, 2, 3, 5, 2, 1, 6, 3, 6, 7, 9);
+        System.out.println("Distinct of " + empIds + " is below");
+        System.out.println(empIds.stream().distinct().collect(toList()));
+
+        log("allMatch, anyMatch, and noneMatch");
+        boolean allEven = empIds.stream().allMatch(getEvenPredicate());
+        boolean anyEven = empIds.stream().anyMatch(getEvenPredicate());
+        boolean noneMatch = empIds.stream().noneMatch(getEvenPredicate());
+
+        System.out.println(empIds);
+        System.out.println("All Even : " + allEven + " Any Even : " + anyEven + " None Even :" + noneMatch);
+    }
+
+    private static Predicate getEvenPredicate() {
+        Predicate<Integer> evenPredicate = id -> (id % 2) == 0;
+        return evenPredicate;
     }
 
     /**

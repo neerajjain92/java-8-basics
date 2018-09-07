@@ -5,8 +5,8 @@ import com.google.common.collect.ImmutableList;
 import java.util.*;
 import java.util.function.Function;
 
+import static com.java8.basics.stream.Util.log;
 import static java.util.stream.Collectors.*;
-import static com.java8.basics.stream.Util.*;
 
 /**
  * Collector is the class and interface as well
