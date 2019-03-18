@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43fce82b-c3c9-4502-9b89-ea3b61f3be9a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java8/basics/Java8OptionalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Java8Collectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Java8Collectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,178 +15,109 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1557219831">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="20" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="20" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3689" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3689" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1090607794">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="java" value="23" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gitignore" value="14" />
-          <entry key="java" value="6005" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="6005" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="23" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="CloverPlugin" class="com.atlassian.clover.idea.config.IdeaCloverConfig">
+    <includePassedTestCoverageOnly>true</includePassedTestCoverageOnly>
+    <manualInitString null="true" />
+    <useGeneratedInitString>true</useGeneratedInitString>
+    <showTooltips>true</showTooltips>
+    <failedCoveredHighlight>-11513856</failedCoveredHighlight>
+    <periodicRefresh>false</periodicRefresh>
+    <languageLevel>1.8 - lambda functions, virtual extension methods.</languageLevel>
+    <instrumentLambda class="com.atlassian.clover.cfg.instr.java.LambdaInstrumentation">NONE</instrumentLambda>
+    <autoScrollFromSource>false</autoScrollFromSource>
+    <testCaseLayout class="com.atlassian.clover.idea.config.TestCaseLayout">TEST_CASES</testCaseLayout>
+    <coveredHighlight>-16756736</coveredHighlight>
+    <outOfDateStripe>-256</outOfDateStripe>
+    <excludes null="true" />
+    <includes null="true" />
+    <alwaysExpandTestClasses>false</alwaysExpandTestClasses>
+    <autoViewInCloudReport>true</autoViewInCloudReport>
+    <flushPolicy>0</flushPolicy>
+    <filteredHighlight>-11513776</filteredHighlight>
+    <outOfDateHighlight>-16777201</outOfDateHighlight>
+    <showInline>true</showInline>
+    <dumpInstrumentedSources>false</dumpInstrumentedSources>
+    <hideFullyCovered>false</hideFullyCovered>
+    <autoRefresh>true</autoRefresh>
+    <modelScope class="com.atlassian.clover.idea.util.ModelScope">APP_CLASSES_ONLY</modelScope>
+    <coveredStripe>-16711936</coveredStripe>
+    <highlightCovered>true</highlightCovered>
+    <viewCoverage>true</viewCoverage>
+    <notCoveredHighlight>-11534336</notCoveredHighlight>
+    <relativeInitString>false</relativeInitString>
+    <failedCoveredStripe>-14336</failedCoveredStripe>
+    <testViewScope class="com.atlassian.clover.idea.config.TestViewScope">GLOBAL</testViewScope>
+    <showGutter>true</showGutter>
+    <alwaysCollapseTestClasses>false</alwaysCollapseTestClasses>
+    <notCoveredStripe>-65536</notCoveredStripe>
+    <autoScroll>true</autoScroll>
+    <calculateTestCoverage>true</calculateTestCoverage>
+    <autoRefreshInterval>2000</autoRefreshInterval>
+    <generatedInitString>$PROJECT_DIR$/.clover/coverage.db</generatedInitString>
+    <regexpContexts class="java.util.ArrayList" />
+    <flushInterval>5000</flushInterval>
+    <viewIncludeAnnotation>true</viewIncludeAnnotation>
+    <flattenPackages>false</flattenPackages>
+    <loadPerTestData>true</loadPerTestData>
+    <showErrorMarks>true</showErrorMarks>
+    <buildWithClover>true</buildWithClover>
+    <lastProjectConfigTabSelected>0</lastProjectConfigTabSelected>
+    <contextFilterSpec />
+    <instrumentTests>true</instrumentTests>
+    <span>0</span>
+    <projectRebuild class="com.atlassian.clover.idea.config.ProjectRebuild">ASK</projectRebuild>
+    <showSummaryInToolbar>true</showSummaryInToolbar>
+    <filteredStripe>-4144960</filteredStripe>
+    <cloudReportIncludeSubpkgs>false</cloudReportIncludeSubpkgs>
+    <enabled>false</enabled>
+    <showSummaryInToolwindow>true</showSummaryInToolwindow>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="270">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="58" column="109" lean-forward="true" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
+            <state relative-caret-position="360">
+              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/Tag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="670" column="20" selection-start-line="670" selection-start-column="20" selection-end-line="670" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/IntPipeline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="216" lean-forward="true" selection-end-line="633" />
-              <folding>
-                <element signature="e#7004#7005#0" expanded="true" />
-                <element signature="e#7053#7054#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -211,24 +141,20 @@
       <find>.map</find>
       <find>mergeFunc</find>
       <find>Predicate</find>
-      <find>.min</find>
       <find>slf4j</find>
+      <find>.min</find>
+      <find>w</find>
+      <find>reducr</find>
+      <find>System.out.print</find>
+      <find>System.out.println</find>
+      <find>priceIsInRange2</find>
     </findStrings>
+    <replaceStrings>
+      <replace>modemPriceIsInRange</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../../../Smart_Doers/qrcode-generator" value="2967777640000" />
-        <entry key="$PROJECT_DIR$/../BehaviourDrivenDevelopment-poc" value="2969102956000" />
-        <entry key="$PROJECT_DIR$/../SpringSecurityWithAngular" value="1487053046000" />
-        <entry key="$PROJECT_DIR$/../strman-java" value="2973937467000" />
-        <entry key="$PROJECT_DIR$/../../../jhipster_tutorial" value="2973797416000" />
-        <entry key="$USER_HOME$/Smart-Doers/qrcode-generator" value="2969167053000" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -247,21 +173,18 @@
         <option value="$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/java8/basics/Java8OptionalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/Tag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/App.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -376,85 +299,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
             </path>
             <path>
               <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
             </path>
             <path>
               <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="main" type="bbb3b172:PsiDirectoryNodeWrapper" />
             </path>
             <path>
               <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="main" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
             </path>
             <path>
               <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-              <item name="functional_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-8-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="main" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,7 +345,7 @@
     <property name="SearchEverywhereHistoryKey" value="pom.xml&#9;FILE&#9;file:///Users/neeraj/Projects/github/neerajjain92/java-8-basics/pom.xml&#10;Guide&#9;FILE&#9;file:///Users/neeraj/Projects/github/neerajjain92/java-8-basics/src/main/java/com/java8/basics/stream/GuideToStream.java&#10;App&#9;FILE&#9;file:///Users/apple/IdeaProjects/java-8-basics/src/main/java/com/java8/basics/App.java&#10;MyFun&#9;FILE&#9;file:///Users/apple/IdeaProjects/java-8-basics/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterface.java&#10;MyFund&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536297765989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543307694622" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -482,48 +365,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuideToStream">
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="Application.App">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionInterfaceInternalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.basics.stream.FunctionInterfaceInternalExample" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.basics.App" />
       <module name="java-8-basics" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8.basics.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuideToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.basics.stream.GuideToStream" />
-      <module name="java-8-basics" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java8.basics.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java8Collectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.basics.stream.Java8Collectors" />
-      <module name="java-8-basics" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java8.basics.stream.*" />
+          <option name="PATTERN" value="com.java8.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -537,7 +392,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Java8OptionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-8-basics" />
       <extension name="coverage">
         <pattern>
@@ -546,13 +401,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.java8.basics" />
-      <option name="MAIN_CLASS_NAME" value="com.java8.basics.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="com.java8.basics.Java8OptionalTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.whenMapIdToEmployees_thenGetEmployeeStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Java8OptionalTest.givenNonNUll_WhenIsPresent_ThenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-8-basics" />
       <extension name="coverage">
         <pattern>
@@ -561,8 +417,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.java8.basics" />
-      <option name="MAIN_CLASS_NAME" value="com.java8.basics.AppTest" />
-      <option name="METHOD_NAME" value="whenMapIdToEmployees_thenGetEmployeeStream" />
+      <option name="MAIN_CLASS_NAME" value="com.java8.basics.Java8OptionalTest" />
+      <option name="METHOD_NAME" value="givenNonNUll_WhenIsPresent_ThenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java8OptionalTest.givenNonNull_WhenCreateOptional_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-8-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java8.basics" />
+      <option name="MAIN_CLASS_NAME" value="com.java8.basics.Java8OptionalTest" />
+      <option name="METHOD_NAME" value="givenNonNull_WhenCreateOptional_thenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java8OptionalTest.whenCreateEmptyOptional_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-8-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java8.basics" />
+      <option name="MAIN_CLASS_NAME" value="com.java8.basics.Java8OptionalTest" />
+      <option name="METHOD_NAME" value="whenCreateEmptyOptional_thenCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -570,12 +460,14 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -583,29 +475,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GuideToStream" />
-      <item itemvalue="JUnit.AppTest" />
-      <item itemvalue="JUnit.AppTest.whenMapIdToEmployees_thenGetEmployeeStream" />
-      <item itemvalue="Application.FunctionInterfaceInternalExample" />
-      <item itemvalue="Application.Java8Collectors" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.Java8OptionalTest" />
+      <item itemvalue="JUnit.Java8OptionalTest.givenNonNull_WhenCreateOptional_thenCorrect" />
+      <item itemvalue="JUnit.Java8OptionalTest.whenCreateEmptyOptional_thenCorrect" />
+      <item itemvalue="JUnit.Java8OptionalTest.givenNonNUll_WhenIsPresent_ThenCorrect" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuideToStream" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.whenMapIdToEmployees_thenGetEmployeeStream" />
-        <item itemvalue="Application.Java8Collectors" />
-        <item itemvalue="Application.FunctionInterfaceInternalExample" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.Java8OptionalTest" />
+        <item itemvalue="JUnit.Java8OptionalTest.givenNonNUll_WhenIsPresent_ThenCorrect" />
+        <item itemvalue="JUnit.Java8OptionalTest.givenNonNull_WhenCreateOptional_thenCorrect" />
+        <item itemvalue="JUnit.Java8OptionalTest.whenCreateEmptyOptional_thenCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -630,50 +522,91 @@
       <workItem from="1536035373296" duration="3155000" />
       <workItem from="1536120207706" duration="667000" />
       <workItem from="1536126562915" duration="3690000" />
-      <workItem from="1536292538734" duration="3310000" />
+      <workItem from="1536292538734" duration="4057000" />
+      <workItem from="1536555389500" duration="247000" />
+      <workItem from="1536561408107" duration="1751000" />
+      <workItem from="1536734347372" duration="5773000" />
+      <workItem from="1543296398221" duration="561000" />
+      <workItem from="1543300330012" duration="4557000" />
+      <workItem from="1552894388949" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.05 at 11h 44m 34s.xml">
-      <configuration name="AppTest.whenMapIdToEmployees_thenGetEmployeeStream" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 12m 03s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.05 at 11h 44m 55s.xml">
-      <configuration name="AppTest.whenMapIdToEmployees_thenGetEmployeeStream" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 16m 15s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.05 at 11h 45m 13s.xml">
-      <configuration name="AppTest.whenMapIdToEmployees_thenGetEmployeeStream" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 21m 18s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_whenMapIdToEmployees_thenGetEmployeeStream - 2018.09.05 at 11h 45m 33s.xml">
-      <configuration name="AppTest.whenMapIdToEmployees_thenGetEmployeeStream" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 23m 11s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.09.05 at 12h 02m 09s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 29m 14s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.09.05 at 12h 04m 34s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 42m 37s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.09.05 at 12h 05m 31s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 52m 26s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.09.07 at 09h 29m 27s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 52m 42s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.09.07 at 09h 29m 59s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 15h 01m 36s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.09.07 at 09h 31m 12s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="Java8OptionalTest - 2018.09.12 at 15h 01m 43s.xml">
+      <configuration name="Java8OptionalTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14653000" />
+    <option name="totallyTimeSpent" value="28361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22100122" />
+      <window_info id="Cloverage" />
+      <window_info id="Test Runs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22790202" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37040818" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.327551" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32967034" />
+      <window_info anchor="right" id="Maven-2 Build" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22832723" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -703,13 +636,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32967034" />
       <window_info anchor="right" id="Maven-2 Build" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,8 +650,129 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>for(Map.Entry&lt;List, List&lt;Tag&gt; entry: groupedTags.entrySet()) {
+    System.out.println(entry.getKey().size());
+    System.out.println(entry.getValue());
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for(Map.Entry&lt;List, List&lt;Tag&gt; entry: groupedTags.entrySet()) {
+    System.out.println(entry.getKey());
+    System.out.println(entry.getValue());
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for(Map.Entry&lt;List, List&lt;Tag&gt; entry: groupedTags.entrySet()) {
+    System.out.println(entry.getValue());
+    System.out.println(entry.getValue());
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Map&lt;List&lt;String&gt;, List&lt;Tag&gt;&gt; groupedTagsList = tagsData.stream().collect(groupingBy(tag -&gt; Arrays.asList(tag.getLevelTypeOne(), tag.getLevelTypeTwo(), tag.getLevelTypeThree())));
+
+for(Map.Entry&lt;List&lt;String&gt;, List&lt;Tag&gt;&gt; entry: groupedTagsList.entrySet()) {
+    System.out.println(entry.getValue());
+    System.out.println(entry.getKey());
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Map&lt;List&lt;String&gt;, List&lt;Tag&gt;&gt; groupedTagsList = tagsData.stream().collect(groupingBy(tag -&gt; Arrays.asList(tag.getLevelTypeOne(), tag.getLevelTypeTwo(), tag.getLevelTypeThree())));
+
+for(Map.Entry&lt;List&lt;String&gt;, List&lt;Tag&gt; entry: groupedTagsList.entrySet()) {
+    System.out.println(entry.getValue());
+    System.out.println(entry.getKey());
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Map&lt;List&lt;String&gt;, List&lt;Tag&gt;&gt; groupedTags = tagsData.stream().collect(groupingBy(tag -&gt; Arrays.asList(tag.getLevelTypeOne(), tag.getLevelTypeTwo(), tag.getLevelTypeThree())));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for(Map.Entry&lt;Object, List&lt;Tag&gt; entry: groupedTags.entrySet()) {
+    System.out.println(entry.getValue());
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for(Map.Entry&lt;Object, List&lt;Tag&gt; entry: groupedTags.entrySet()) {
+    System.out.println(entry.getKey());
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>groupedTags.keySet().forEach(System.out::println);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>groupedTags.keySet()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((HashMap) groupedTags).entrySet</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>groupedTags.keySet().size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diff/60000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diff</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(int)((diff / 1000) % 60)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>diff/1000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java" />
@@ -757,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11610">
-          <caret line="850" column="31" selection-start-line="850" selection-start-column="31" selection-end-line="850" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -775,13 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -810,10 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,9 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
           <caret line="97" selection-start-line="96" selection-start-column="5" selection-end-line="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,30 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -872,27 +878,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="58" column="109" lean-forward="true" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -906,21 +902,114 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/IntPipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="216" lean-forward="true" selection-end-line="633" />
+          <caret line="216" selection-end-line="633" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding>
-            <element signature="e#7004#7005#0" expanded="true" />
-            <element signature="e#7053#7054#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Optional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="250">
+          <caret line="269" column="7" lean-forward="true" selection-start-line="269" selection-start-column="7" selection-end-line="269" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/Java8OptionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="139" column="56" lean-forward="true" selection-start-line="139" selection-start-column="56" selection-end-line="139" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="873" column="59" selection-start-line="873" selection-start-column="52" selection-end-line="873" selection-end-column="59" />
+          <folding>
+            <element signature="e#16803#16804#0" expanded="true" />
+            <element signature="e#16858#16859#0" expanded="true" />
+            <element signature="e#33990#33991#0" expanded="true" />
+            <element signature="e#34045#34046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
         </state>
       </provider>
     </entry>

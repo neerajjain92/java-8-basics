@@ -4,7 +4,7 @@ package com.java8.basics;
  * Hello world!
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {

@@ -49,6 +49,9 @@ public class GuideToStream {
         // Stream Specializations
         log("Stream Specializations IntStream, LongStream, and DoubleStream etc.");
         streamSpecializationExample();
+
+        // Parallel Stream
+        log("Parallel Stream in Java8");
     }
 
     /**
