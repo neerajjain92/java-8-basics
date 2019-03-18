@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43fce82b-c3c9-4502-9b89-ea3b61f3be9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java8/basics/Java8OptionalTest.java" afterDir="false" />
+    <list default="true" id="43fce82b-c3c9-4502-9b89-ea3b61f3be9a" name="Default" comment="Added Unit tests for Java8 Optionals.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java8/basics/GuideToCompletableFutureTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,8 +75,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Java8Collectors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToCompletableFuture.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,38 +106,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletableFuture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+            <state relative-caret-position="196">
+              <caret line="2261" column="19" selection-start-line="2261" selection-start-column="19" selection-end-line="2261" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/Tag.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/GuideToCompletableFutureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="409">
+              <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
               <folding>
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/26.0-jre/guava-26.0-jre-sources.jar!/com/google/common/base/Stopwatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="199" column="14" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+              <folding>
+                <element signature="e#6480#6481#0" expanded="true" />
+                <element signature="e#6545#6546#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -172,10 +210,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Util.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/java8/basics/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/FunctionInterfaceInternalExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/java8/basics/Java8OptionalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/Tag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/java8/basics/GuideToCompletableFutureTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToCompletableFuture.java" />
       </list>
     </option>
   </component>
@@ -334,6 +374,45 @@
               <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
               <item name="basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
             </path>
+            <path>
+              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="main" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="functional_interface" type="bbb3b172:PsiDirectoryNodeWrapper" />
+            </path>
+            <path>
+              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="main" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="stream" type="bbb3b172:PsiDirectoryNodeWrapper" />
+            </path>
+            <path>
+              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="test" type="bbb3b172:PsiDirectoryNodeWrapper" />
+            </path>
+            <path>
+              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="test" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
+            </path>
+            <path>
+              <item name="Java-8-Basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-8-basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="test" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="basics" type="bbb3b172:PsiDirectoryNodeWrapper" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -345,7 +424,7 @@
     <property name="SearchEverywhereHistoryKey" value="pom.xml&#9;FILE&#9;file:///Users/neeraj/Projects/github/neerajjain92/java-8-basics/pom.xml&#10;Guide&#9;FILE&#9;file:///Users/neeraj/Projects/github/neerajjain92/java-8-basics/src/main/java/com/java8/basics/stream/GuideToStream.java&#10;App&#9;FILE&#9;file:///Users/apple/IdeaProjects/java-8-basics/src/main/java/com/java8/basics/App.java&#10;MyFun&#9;FILE&#9;file:///Users/apple/IdeaProjects/java-8-basics/src/main/java/com/java8/basics/functional_interface/MyFunctionalInterface.java&#10;MyFund&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543307694622" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552897507455" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -365,7 +444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.GuideToCompletableFutureTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -388,6 +467,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuideToCompletableFutureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-8-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java8.basics" />
+      <option name="MAIN_CLASS_NAME" value="com.java8.basics.GuideToCompletableFutureTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -442,23 +537,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java8OptionalTest.whenCreateEmptyOptional_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-8-basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java8.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java8.basics" />
-      <option name="MAIN_CLASS_NAME" value="com.java8.basics.Java8OptionalTest" />
-      <option name="METHOD_NAME" value="whenCreateEmptyOptional_thenCorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -488,16 +566,16 @@
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.Java8OptionalTest" />
       <item itemvalue="JUnit.Java8OptionalTest.givenNonNull_WhenCreateOptional_thenCorrect" />
-      <item itemvalue="JUnit.Java8OptionalTest.whenCreateEmptyOptional_thenCorrect" />
       <item itemvalue="JUnit.Java8OptionalTest.givenNonNUll_WhenIsPresent_ThenCorrect" />
+      <item itemvalue="JUnit.GuideToCompletableFutureTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuideToCompletableFutureTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.Java8OptionalTest" />
         <item itemvalue="JUnit.Java8OptionalTest.givenNonNUll_WhenIsPresent_ThenCorrect" />
         <item itemvalue="JUnit.Java8OptionalTest.givenNonNull_WhenCreateOptional_thenCorrect" />
-        <item itemvalue="JUnit.Java8OptionalTest.whenCreateEmptyOptional_thenCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -528,47 +606,55 @@
       <workItem from="1536734347372" duration="5773000" />
       <workItem from="1543296398221" duration="561000" />
       <workItem from="1543300330012" duration="4557000" />
-      <workItem from="1552894388949" duration="72000" />
+      <workItem from="1552894388949" duration="2132000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Unit tests for Java8 Optionals.">
+      <created>1552894578465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552894578465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 12m 03s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 44m 16s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 16m 15s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 44m 35s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 21m 18s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 45m 38s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 23m 11s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 45m 48s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 29m 14s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 46m 18s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 42m 37s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 46m 44s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 52m 26s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 49m 14s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 14h 52m 42s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 50m 00s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 15h 01m 36s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 50m 23s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Java8OptionalTest - 2018.09.12 at 15h 01m 43s.xml">
-      <configuration name="Java8OptionalTest" configurationId="JUnit" />
+    <history-entry file="GuideToCompletableFutureTest - 2019.03.18 at 13h 54m 19s.xml">
+      <configuration name="GuideToCompletableFutureTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28361000" />
+    <option name="totallyTimeSpent" value="30421000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Cloverage" />
@@ -582,15 +668,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37040818" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37029704" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32673267" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.327551" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32673267" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Maven" />
@@ -641,6 +727,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Unit tests for Java8 Optionals." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Unit tests for Java8 Optionals." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -652,15 +742,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java</url>
-          <line>23</line>
+          <line>6</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/java8/basics/GuideToCompletableFutureTest.java</url>
+          <line>34</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -733,6 +823,27 @@ for(Map.Entry&lt;List&lt;String&gt;, List&lt;Tag&gt; entry: groupedTagsList.entr
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>stopwatch.elapsed(TimeUnit.SECONDS) &gt; 4L</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stopwatch.elapsed(TimeUnit.SECONDS) &gt; 5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stopwatch.elapsed(TimeUnit.SECONDS)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stopwatch.elapsed(TimeUnit.SECONDS)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.concurrent.TimeUnit</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>groupedTags.keySet().forEach(System.out::println);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -754,21 +865,6 @@ for(Map.Entry&lt;List&lt;String&gt;, List&lt;Tag&gt; entry: groupedTagsList.entr
       </expression>
       <expression>
         <expression-string>diff/60000</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diff</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(int)((diff / 1000) % 60)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>diff/1000</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -847,13 +943,6 @@ for(Map.Entry&lt;List&lt;String&gt;, List&lt;Tag&gt; entry: groupedTagsList.entr
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Java8Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="97" selection-start-line="96" selection-start-column="5" selection-end-line="97" />
         </state>
       </provider>
     </entry>
@@ -996,20 +1085,82 @@ for(Map.Entry&lt;List&lt;String&gt;, List&lt;Tag&gt; entry: groupedTagsList.entr
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="150">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToStream.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/26.0-jre/guava-26.0-jre.jar!/com/google/common/base/Stopwatch.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+        <state relative-caret-position="285">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/26.0-jre/guava-26.0-jre-sources.jar!/com/google/common/base/Stopwatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="199" column="14" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+          <folding>
+            <element signature="e#6480#6481#0" expanded="true" />
+            <element signature="e#6545#6546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="2261" column="19" selection-start-line="2261" selection-start-column="19" selection-end-line="2261" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/Java8Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java8/basics/GuideToCompletableFutureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/basics/stream/GuideToCompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
