@@ -3,9 +3,7 @@ package com.java8.basics.functional_interface;
 public class MyFunctionalInterfaceImpl {
 
     public static void main(String[] args) {
-        MyFunctionalInterface functionalInterface = (String guestName) -> {
-            System.out.println("Welcome from Functional Interface " + guestName);
-        };
+        MyFunctionalInterface functionalInterface = guestName -> System.out.println("Welcome from Functional Interface " + guestName);
 
         functionalInterface.greet("Neeraj Jain");
 
